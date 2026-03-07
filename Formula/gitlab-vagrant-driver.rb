@@ -2,7 +2,7 @@ class GitlabVagrantDriver < Formula
   desc "Custom GitLab Runner driver that provisions CI jobs in Vagrant VMs"
   homepage "https://github.com/nicerloop/gitlab-vagrant-driver"
   url "https://github.com/nicerloop/gitlab-vagrant-driver/archive/refs/tags/0.0.1.tar.gz"
-  sha256 "8a9011927933446f0123dff9b35653f0d623e84052e0ff3ccd020f6079cfc7c7"
+  sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
   license "MIT"
 
   def install
