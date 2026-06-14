@@ -2,15 +2,17 @@
 
 ## How do I install these formulae?
 
-`brew install nicerloop/gitlab-vagrant-driver/<formula>`
-
-Or `brew tap nicerloop/gitlab-vagrant-driver` and then `brew install <formula>`.
+```sh
+brew tap nicerloop/gitlab-vagrant-driver
+brew trust nicerloop/gitlab-vagrant-driver
+brew install nicerloop/gitlab-vagrant-driver/<formula>
+```
 
 Or, in a `brew bundle` `Brewfile`:
 
 ```ruby
-tap "nicerloop/gitlab-vagrant-driver"
-brew "<formula>"
+tap "nicerloop/gitlab-vagrant-driver", trusted: true
+brew "nicerloop/gitlab-vagrant-driver/<formula>"
 ```
 
 ## Documentation
